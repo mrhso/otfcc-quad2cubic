@@ -11,3 +11,6 @@ otfccdump input.ttf | otfcc-q2c [OPTIONS] | otfccbuild -o output.otf
 
 -x, --exact : 使用精确（无损）转换，而不优化曲线。
 ```
+
+## 计划
+目前程序无能力制作，企待有能力者编写。
