@@ -3,13 +3,12 @@
 
 ## 依赖
 - [otfcc](https://github.com/caryll/otfcc)
-- [AFDKO](https://github.com/adobe-type-tools/afdko)
 
 ## 用法
 ```
 otfccdump input.ttf | otfcc-q2c [OPTIONS] | otfccbuild -o output.otf
 
--x, --exact : 使用精确（无损）转换，而不优化曲线。
+-x, --exact : 使用数学上的方法转曲，而不简化曲线。
 ```
 
 ## 计划
